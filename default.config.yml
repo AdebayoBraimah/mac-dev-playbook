@@ -7,7 +7,7 @@ configure_osx: true
 
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
-dockitems_remove: []
+dockitems_remove:
   - TV
   - Freeform
   - Mail
