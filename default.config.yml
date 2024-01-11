@@ -8,6 +8,16 @@ configure_osx: true
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: false
 dockitems_remove: []
+- TV
+- Freeform
+- Mail
+- Maps
+- Photos
+- Calendar
+- Contacts
+- Reminders
+- Music
+- News
 # - Launchpad
 # - TV
 # - Podcasts
@@ -24,7 +34,8 @@ sudoers_custom_config: ''
 #   # Allow users in admin group to use sudo with no password.
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+# dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/AdebayoBraimah/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
@@ -55,7 +66,7 @@ homebrew_installed_packages:
   - nvm
   - php
   - ssh-copy-id
-  - cowsay
+  # - cowsay
   - readline
   - openssl
   - pv
