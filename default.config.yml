@@ -106,7 +106,7 @@ homebrew_cask_apps:
   - visual-studio-code
   - zoom
   - macvim
-  - microsoft-office
+  # - microsoft-office # This always fails, install separately
   - microsoft-teams
   - cmake
   - tor-browser

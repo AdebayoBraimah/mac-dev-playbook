@@ -42,5 +42,5 @@ files=(
   )
 
 for file in ${files[@]}; do
-  ln -s ${file} ${HOME}/
+  cp ${file} ${HOME}/
 done
