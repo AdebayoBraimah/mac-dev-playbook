@@ -75,8 +75,8 @@ homebrew_installed_packages:
   - zsh-history-substring-search
   # Extras
   - imagemagick
-  - cmake
-  - tor
+  # - cmake
+  # - tor
 
 homebrew_taps: []
 
@@ -96,7 +96,7 @@ homebrew_cask_apps:
   # Extras
   - megasync
   - adobe-acrobat-reader
-  - anaconda
+  # - anaconda # This needs to be installed independently of brew
   # - chrome-remote-desktop-host # May or may not be needed
   - gimp
   # - github # Install GitHub Desktop
@@ -108,6 +108,9 @@ homebrew_cask_apps:
   - macvim
   - microsoft-office
   - microsoft-teams
+  - cmake
+  - tor-browser
+  - discord
 
 
 
