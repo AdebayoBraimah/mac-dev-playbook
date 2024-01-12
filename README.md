@@ -7,7 +7,12 @@
 This playbook installs and configures most of the software I use on my Mac for web and software development. Some things in macOS are slightly difficult to automate, so I still have a few manual installation steps, but at least it's all documented here.
 
 ## Installation
-
+  
+  0. Run the following to setup the dot files:
+  ```zsh
+  chmod 755 setup.dotfiles.zsh
+  ./setup.dotfiles.zsh
+  ```
   1. Ensure Apple's command line tools are installed (`xcode-select --install` to launch the installer).
   2. [Install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/index.html):
 
