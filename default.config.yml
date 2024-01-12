@@ -34,8 +34,8 @@ sudoers_custom_config: ''
 #   # Allow users in admin group to use sudo with no password.
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
-# dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo: https://github.com/AdebayoBraimah/dotfiles.git
+dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+# dotfiles_repo: https://github.com/AdebayoBraimah/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
@@ -59,36 +59,57 @@ homebrew_installed_packages:
   - httpie
   - iperf
   - libevent
-  - sqlite
-  - mcrypt
+  # - sqlite
+  # - mcrypt
   - nmap
-  - node
-  - nvm
-  - php
+  # - node
+  # - nvm
+  # - php
   - ssh-copy-id
   # - cowsay
   - readline
-  - openssl
+  # - openssl
   - pv
   - wget
-  - wrk
+  # - wrk
   - zsh-history-substring-search
+  # Extras
+  - imagemagick
+  - cmake
+  - tor
 
 homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
+  # - chromedriver
   - docker
-  - dropbox
+  # - dropbox
   - firefox
   - google-chrome
   - handbrake
   - licecap
-  - sequel-ace
+  # - sequel-ace
   - slack
   - sublime-text
-  - transmit
+  # - transmit # Download later - this is good, but costs money
+  # Extras
+  - megasync
+  - adobe-acrobat-reader
+  - anaconda
+  # - chrome-remote-desktop-host # May or may not be needed
+  - gimp
+  # - github # Install GitHub Desktop
+  - google-drive
+  - mathpix-snipping-tool
+  - spotify
+  - visual-studio-code
+  - zoom
+  - macvim
+  - microsoft-office
+  - microsoft-teams
+
+
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
