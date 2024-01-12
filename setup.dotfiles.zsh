@@ -21,6 +21,7 @@ cd ${dev_dir}
 curl -L ${link} > file.zip
 
 unzip file.zip
+rm file.zip
 
 repo_name=$(echo ${link} | cut -d "/" -f 5)
 version=$(echo ${link} | cut -d "/" -f 9 | sed "s@v@@g" | sed "s@.zip@@g")
