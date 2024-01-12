@@ -8,10 +8,10 @@ This playbook installs and configures most of the software I use on my Mac for w
 
 ## Installation
   
-  0. Run the following to setup the dot files:
+  0. Run the following:
   ```zsh
-  chmod 755 setup.dotfiles.zsh
-  ./setup.dotfiles.zsh
+  rm -rf ${HOME}/Development/GitHub/dotfiles
+  mkdir -p ${HOME}/Development/GitHub/dotfiles
   ```
   1. Ensure Apple's command line tools are installed (`xcode-select --install` to launch the installer).
   2. [Install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/index.html):
