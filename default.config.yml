@@ -77,6 +77,7 @@ homebrew_installed_packages:
   - imagemagick
   # - cmake
   # - tor
+  - mas
 
 homebrew_taps: []
 
@@ -111,7 +112,7 @@ homebrew_cask_apps:
   - cmake
   - tor-browser
   - discord
-
+  - utm
 
 
 # See `geerlingguy.mas` role documentation for usage instructions.
