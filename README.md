@@ -26,6 +26,12 @@ This playbook installs and configures most of the software I use on my Mac for w
 
 > Note: If some Homebrew commands fail, you might need to agree to Xcode's license or fix some other Brew issue. Run `brew doctor` to see if this is the case.
 
+  6. Run the following to replace current dotfiles with your dotfiles:
+  ```zsh
+  chmod 755 setup.dotfiles.zsh
+  ./setup.dotfiles.zsh
+  ```
+
 ### Use with a remote Mac
 
 You can use this playbook to manage other Macs as well; the playbook doesn't even need to be run from a Mac at all! If you want to manage a remote Mac, either another Mac on your network, or a hosted Mac like the ones from [MacStadium](https://www.macstadium.com), you just need to make sure you can connect to it with SSH:
