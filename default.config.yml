@@ -75,9 +75,11 @@ homebrew_installed_packages:
   - zsh-history-substring-search
   # Extras
   - imagemagick
-  # - cmake
+  - cmake # Need this so that Homebrew has its own version
   # - tor
   - mas
+  - llvm
+  
 
 homebrew_taps: []
 
