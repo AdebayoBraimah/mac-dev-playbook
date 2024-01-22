@@ -79,6 +79,7 @@ homebrew_installed_packages:
   # - tor
   - mas
   - llvm
+  - open-mpi
   
 
 homebrew_taps: []
